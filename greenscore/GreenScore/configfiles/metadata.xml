@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ExtensionPackages>
+        <ExtensionPackage dependsOn="" description="" minimumThingWorxVersion="7.1.3" name="GreenScore" packageVersion="1.0.0" vendor="">
+            <JarResources>
+                <FileResource description="" file="greenscore.jar" type="JAR"/>
+            </JarResources>
+        </ExtensionPackage>
+    </ExtensionPackages>
+    <ThingPackages>
+        <ThingPackage className="com.ptc.greenscore.GreenScoreThingTemplate" description="" name="GreenScoreThingTemplatePackage"/>
+    </ThingPackages>
+    <ThingTemplates>
+        <ThingTemplate aspect.isEditableExtensionObject="false" description="" name="GreenScoreThingTemplate" thingPackage="GreenScoreThingTemplatePackage"/>
+    </ThingTemplates>   
+</Entities>
